@@ -1,0 +1,27 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+}
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image-wrapper img {
+  max-height: 300px;
+  width: 100%;
+}
+.image-wrapper h1 {
+  margin-bottom: 2rem;
+  color: rgb(85, 85, 85);
+}
